@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A premium responsive restaurant menu with live search and category filters."
+    />
+    <title>Maison Noir Restaurant Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="loading-screen" id="loadingScreen" aria-hidden="true">
+      <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <header class="hero" id="top">
+      <nav class="topbar" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Maison Noir home">
+          <span class="brand-mark">MN</span>
+          <span>Maison Noir</span>
+        </a>
+        <a class="reservation-link" href="tel:+15550182900">Reserve a Table</a>
+      </nav>
+
+      <section class="hero-content" aria-labelledby="pageTitle">
+        <p class="eyebrow">Seasonal dining collection</p>
+        <h1 id="pageTitle">A refined menu crafted for memorable evenings.</h1>
+        <p class="hero-copy">
+          Explore charcoal-grilled mains, artisan burgers, stone-baked pizzas,
+          and bar-crafted drinks in one fast, owner-friendly digital menu.
+        </p>
+      </section>
+    </header>
+
+    <main>
+      <section class="menu-toolbar" aria-label="Menu controls">
+        <div class="toolbar-inner">
+          <div class="search-wrap">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <label class="sr-only" for="menuSearch">Search menu items</label>
+            <input
+              id="menuSearch"
+              type="search"
+              placeholder="Search burgers, pizza, drinks..."
+              autocomplete="off"
+            />
+          </div>
+
+          <div
+            class="category-filters"
+            id="categoryFilters"
+            aria-label="Filter menu by category"
+          ></div>
+        </div>
+      </section>
+
+      <section class="menu-section" aria-labelledby="menuTitle">
+        <div class="section-heading">
+          <p class="eyebrow">Curated selection</p>
+          <h2 id="menuTitle">Restaurant Menu</h2>
+          <p id="resultCount" class="result-count" aria-live="polite"></p>
+        </div>
+
+        <div class="menu-grid" id="menuGrid" aria-live="polite"></div>
+
+        <div class="empty-state" id="emptyState" hidden>
+          <span aria-hidden="true">⌕</span>
+          <h3>No dishes found</h3>
+          <p>Try another search term or choose a different category.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <a class="brand footer-brand" href="#top" aria-label="Maison Noir home">
+          <span class="brand-mark">MN</span>
+          <span>Maison Noir</span>
+        </a>
+        <p>
+          18 Velvet Avenue, Downtown · Open daily 11:00 AM - 11:30 PM
+        </p>
+      </div>
+      <div class="footer-contact">
+        <a href="tel:+15550182900">+1 (555) 018-2900</a>
+        <a href="mailto:hello@maisonnoir.example">hello@maisonnoir.example</a>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
