@@ -10,35 +10,37 @@
 
 const products = [
   // { id: 1, name: "Burger Klasik", category: "Burgera", price: 2.3, image: "images/1.png", description: "Burger klasik." },
-  { id: 2, name: "Copza Pule me Sos Kerpudhe", category: "Tortilla Grill", price: 4.5, image: "images/2.png", description: "Copza pule me sos kerpudhe." },
-  { id: 3, name: "Copza Pule me Sos Djath", category: "Tortilla Grill", price: 4.5, image: "images/3.png", description: "Copza pule me sos djathi." },
+  { id: 2, name: "Copza Pule me Sos Kerpudhe", category: "Grill", price: 4.5, image: "images/2.png", description: "Copza pule me sos kerpudhe." },
+  { id: 3, name: "Copza Pule me Sos Djegst", category: "Grill", price: 4.5, image: "images/3.png", description: "Copza pule me sos djathi." },
   { id: 4, name: "Llokuma", category: "Mengjesi", price: 3, image: "images/4.png", description: "Llokuma tradicionale." },
-  { id: 5, name: "Omlet Natural", category: "Mengjesi", price: 3, image: "images/5.png", description: "Omlet natural." },
-  { id: 6, name: "Rizoto Pule", category: "Tortilla Grill", price: 4, image: "images/6.png", description: "Rizoto me pule." },
-  { id: 7, name: "Omlet Sugjuk", category: "Mengjesi", price: 3, image: "images/7.png", description: "Omlet me sugjuk." },
-  { id: 8, name: "Pleskavic Klasike", category: "Tortilla Grill", price: 4, image: "images/8.png", description: "Pleskavic klasike." },
-  { id: 9, name: "5 Qebapa n'Tave", category: "Tortilla Grill", price: 3.5, image: "images/9.png", description: "5 qebapa ne tave." },
-  { id: 10, name: "7 Qebapa n'Tave", category: "Tortilla Grill", price: 4.5, image: "images/10.png", description: "7 qebapa ne tave." },
+  { id: 6, name: "Rizoto Pule", category: "Grill", price: 4, image: "images/6.png", description: "Rizoto me pule." },
+  { id: 8, name: "Pleskavic Klasike", category: "Grill", price: 4, image: "images/8.png", description: "Pleskavic klasike." },
+  { id: 9, name: "5 Qebapa n'Tave", category: "Grill", price: 3.5, image: "images/9.png", description: "5 qebapa ne tave." },
+  { id: 10, name: "7 Qebapa n'Tave", category: "Grill", price: 4.5, image: "images/10.png", description: "7 qebapa ne tave." },
   { id: 11, name: "Mengjes i Shtepise EM", category: "Mengjesi", price: 3.5, image: "images/11.png", description: "Mengjes i shtepise." },
-  { id: 12, name: "Virshlle Shtepie", category: "Tortilla Grill", price: 3.8, image: "images/12.png", description: "Virshlle shtepie." },
+  { id: 12, name: "Virshlle Shtepie", category: "Grill", price: 3.8, image: "images/12.png", description: "Virshlle shtepie." },
   { id: 13, name: "Hamburger me Ve", category: "Burgera", price: 3.8, image: "images/13.png", description: "Hamburger me veze." },
   { id: 14, name: "EM Burger", category: "Burgera", price: 3.5, image: "images/14.png", description: "Burger i shtepise EM." },
-  { id: 15, name: "Shnicell Pule", category: "Tortilla Grill", price: 4.5, image: "images/15.png", description: "Shnicell pule." },
-  { id: 16, name: "Tortilla Pule me Perime", category: "Tortilla Grill", price: 4, image: "images/16.png", description: "Tortilla me pule dhe perime." },
+  { id: 15, name: "Shnicell Pule", category: "Grill", price: 4.5, image: "images/15.png", description: "Shnicell pule." },
   { id: 17, name: "Sandwich Pule/Tuna/Pershut", category: "Sandwicha & Samuna", price: 2.5, image: "images/17.png", description: "Sandwich pule, tuna ose pershut." },
+    { id: 32, name: "Sandwich Mix", category: "Sandwicha & Samuna", price: 3, image: "images/17.png", description: "Sandwich pule, tuna ose pershut." },
+
   { id: 18, name: "Hamburger me Pomfrit", category: "Burgera", price: 2.5, image: "images/18.png", description: "Hamburger me pomfrit." },
-  { id: 19, name: "Pizza Margarita", category: "Pizza", price: 3.5, image: "images/19.png", description: "Pizza margarita." },
+  { id: 19, name: "Pizza Margarita", category: "Pizza", price: 3.5, image: "images/34.png", description: "Pizza margarita." },
   { id: 20, name: "Pizza Tuna me Qepe", category: "Pizza", price: 4.5, image: "images/20.png", description: "Pizza tuna me qepe." },
-  { id: 21, name: "Specialitet Shtepie", category: "Tortilla Grill", price: 8, image: "images/21.png", description: "Specialitet i shtepise." },
-  { id: 22, name: "Pizza Vegjetariane", category: "Pizza", price: 4, image: "images/22.png", description: "Pizza vegjetariane." },
-  { id: 23, name: "Pizza Pershute", category: "Pizza", price: 4, image: "images/23.png", description: "Pizza me pershute." },
+  { id: 21, name: "Specialitet Shtepie", category: "Grill", price: 8, image: "images/21.png", description: "Specialitet i shtepise." },
+  { id: 23, name: "Pizza Pershute", category: "Pizza", price: 4, image: "images/33.png", description: "Pizza me pershute." },
+    { id: 23, name: "Pizza Shpis", category: "Pizza", price: 4.50, image: "images/33.png", description: "Pizza me pershute." },
+
   { id: 24, name: "Sallat Pule", category: "Sallata", price: 3.5, image: "images/24.png", description: "Sallate me pule." },
-  { id: 25, name: "Samun Pule/Pershut/Sugjuk", category: "Sandwicha & Samuna", price: 2.5, image: "images/25.png", description: "Samun me pule, pershut ose sugjuk." },
+  { id: 25, name: "Samun Pershut/Sugjuk", category: "Sandwicha & Samuna", price: 2.5, image: "images/25.png", description: "Samun me  pershut ose sugjuk." },
+    { id: 31, name: "Samun Mix", category: "Sandwicha & Samuna", price: 3, image: "images/25.png", description: "Samun me pule, pershut ose sugjuk." },
+
   { id: 26, name: "Spaghetti Boloneze", category: "Pasta", price: 4, image: "images/26.png", description: "Spaghetti boloneze." },
   { id: 27, name: "Makarona Boloneze", category: "Pasta", price: 4, image: "images/27.png", description: "Makarona boloneze." },
   { id: 28, name: "Makarona Karbonara", category: "Pasta", price: 4, image: "images/28.png", description: "Makarona karbonara." },
-  { id: 29, name: "7 Qebapa", category: "Tortilla Grill", price: 4, image: "images/29.png", description: "7 cope qebapa." },
-  { id: 30, name: "5 Qebapa", category: "Tortilla Grill", price: 3, image: "images/30.png", description: "5 cope qebapa." }
+  { id: 29, name: "7 Qebapa", category: "Grill", price: 4, image: "images/29.png", description: "7 cope qebapa." },
+  { id: 30, name: "5 Qebapa", category: "Grill", price: 3, image: "images/30.png", description: "5 cope qebapa." }
 ];
 
 const categories = [
@@ -49,7 +51,7 @@ const categories = [
   { name: "Sandwicha & Samuna", icon: "◆" },
   { name: "Sallata", icon: "✿" },
   { name: "Mengjesi", icon: "☀" },
-  { name: "Tortilla Grill", icon: "▣" }
+  { name: "Grill", icon: "▣" }
 ];
 
 const menuGrid = document.querySelector("#menuGrid");
