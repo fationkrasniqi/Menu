@@ -13,6 +13,14 @@ const products = [
   { id: 2, name: "Copza Pule me Sos Kerpudhe", category: "Grill", price: 4.5, image: "images/2.webp", description: "Copza pule me sos kerpudhe." },
   { id: 3, name: "Copza Pule me Sos Djegst", category: "Grill", price: 4.5, image: "images/3.webp", description: "Copza pule me sos djathi." },
   { id: 4, name: "Llokuma", category: "Mengjesi", price: 3, image: "images/4.webp", description: "Llokuma tradicionale." },
+  { id: 31, name: "Omlet me perime", category: "Mengjesi", price: 2.80, image: "images/omleti 2.webp", description: "Omlet me Perime." },
+  { id: 32, name: "Omlet ", category: "Mengjesi", price: 2.50, image: "images/omleti 1.webp", description: "Omlet." },
+  { id: 33, name: "Pula ne tavë", category: "Grill", price: 5, image: "images/pula ntav.webp", description: "Pula ne tavë." },
+  { id: 34, name: "Meze për 2 persona ", category: "Grill", price: 12, image: "images/mishi.webp", description: "Meze për 2 persona." },
+  { id: 35, name: "Meze për 4 persona ", category: "Grill", price: 20, image: "images/per 8 persona.webp", description: "Meze për 4 persona." },
+  { id: 36, name: "Kombinim mishi ", category: "Grill", price: 5, image: "images/kombinimi.webp", description: "Kombinim mishi." },
+  { id: 37, name: "Pleskavic e mbushur ", category: "Grill", price: 4.50, image: "images/pleskavic e mbushu.webp", description: "Pleskavic e mbushur." },
+
   { id: 6, name: "Rizoto Pule", category: "Grill", price: 4, image: "images/6.webp", description: "Rizoto me pule." },
   { id: 8, name: "Pleskavic Klasike", category: "Grill", price: 4, image: "images/8.webp", description: "Pleskavic klasike." },
   { id: 9, name: "5 Qebapa n'Tave", category: "Grill", price: 3.5, image: "images/9.webp", description: "5 qebapa ne tave." },
@@ -22,8 +30,11 @@ const products = [
   { id: 13, name: "Hamburger me Ve", category: "Burgera", price: 3.8, image: "images/13.webp", description: "Hamburger me veze." },
   { id: 14, name: "EM Burger", category: "Burgera", price: 3.5, image: "images/14.webp", description: "Burger i shtepise EM." },
   { id: 15, name: "Shnicell Pule", category: "Grill", price: 4.5, image: "images/15.webp", description: "Shnicell pule." },
-  { id: 17, name: "Sandwich Pule/Tuna/Pershut", category: "Sandwicha & Samuna", price: 2.5, image: "images/17.webp", description: "Sandwich pule, tuna ose pershut." },
-    { id: 32, name: "Sandwich Mix", category: "Sandwicha & Samuna", price: 3, image: "images/17.webp", description: "Sandwich pule, tuna ose pershut." },
+  { id: 47, name: "Sandwich Pule", category: "Sandwicha & Samuna", price: 2.5, image: "images/17.webp", description: "Sandwich pule" },
+    { id: 48, name: "Sandwich Tuna", category: "Sandwicha & Samuna", price: 2.5, image: "images/17.webp", description: "Sandwich tuna" },
+    { id: 49, name: "Sandwich Proshut", category: "Sandwicha & Samuna", price: 2.5, image: "images/sandwich pershute.webp", description: "Sandwich mix." },
+
+    { id: 50, name: "Sandwich Mix", category: "Sandwicha & Samuna", price: 3, image: "images/sandwich pershute.webp", description: "Sandwich mix." },
 
   { id: 18, name: "Hamburger me Pomfrit", category: "Burgera", price: 2.5, image: "images/18.webp", description: "Hamburger me pomfrit." },
   { id: 19, name: "Pizza Margarita", category: "Pizza", price: 3.5, image: "images/34.webp", description: "Pizza margarita." },
@@ -33,14 +44,22 @@ const products = [
     { id: 23, name: "Pizza Shpis", category: "Pizza", price: 4.50, image: "images/33.webp", description: "Pizza me pershute." },
 
   { id: 24, name: "Sallat Pule", category: "Sallata", price: 3.5, image: "images/24.webp", description: "Sallate me pule." },
-  { id: 25, name: "Samun Pershut/Sugjuk", category: "Sandwicha & Samuna", price: 2.5, image: "images/25.webp", description: "Samun me  pershut ose sugjuk." },
-    { id: 31, name: "Samun Mix", category: "Sandwicha & Samuna", price: 3, image: "images/25.webp", description: "Samun me pule, pershut ose sugjuk." },
+    { id: 38, name: "Sallat Shope", category: "Sallata", price: 3, image: "images/sallata shope.webp", description: "Sallate shope." },
+
+  { id: 51, name: "Samun Pershut/Sugjuk", category: "Sandwicha & Samuna", price: 2.5, image: "images/25.webp", description: "Samun me  pershut ose sugjuk." },
+    { id: 52, name: "Samun Mix", category: "Sandwicha & Samuna", price: 3, image: "images/25.webp", description: "Samun me pule, pershut ose sugjuk." },
 
   { id: 26, name: "Spaghetti Boloneze", category: "Pasta", price: 4, image: "images/26.webp", description: "Spaghetti boloneze." },
   { id: 27, name: "Makarona Boloneze", category: "Pasta", price: 4, image: "images/27.webp", description: "Makarona boloneze." },
   { id: 28, name: "Makarona Karbonara", category: "Pasta", price: 4, image: "images/28.webp", description: "Makarona karbonara." },
   { id: 29, name: "7 Qebapa", category: "Grill", price: 4, image: "images/29.webp", description: "7 cope qebapa." },
-  { id: 30, name: "5 Qebapa", category: "Grill", price: 3, image: "images/30.webp", description: "5 cope qebapa." }
+  { id: 30, name: "5 Qebapa", category: "Grill", price: 3, image: "images/30.webp", description: "5 cope qebapa." },
+    { id: 40, name: "Tortilla pule", category: "Tortilla", price: 4, image: "images/tortilla.webp", description: "Tortilla me pule." },
+      { id: 41, name: "Tortilla viqi", category: "Tortilla", price: 5, image: "images/tortilla.webp", description: "Tortilla me pule." },
+
+
+
+
 ];
 
 const categories = [
@@ -51,7 +70,8 @@ const categories = [
   { name: "Sandwicha & Samuna", icon: "◆" },
   { name: "Sallata", icon: "✿" },
   { name: "Mengjesi", icon: "☀" },
-  { name: "Grill", icon: "▣" }
+  { name: "Grill", icon: "▣" },
+  { name: "Tortilla", icon: "▤" }
 ];
 
 const menuGrid = document.querySelector("#menuGrid");
@@ -170,8 +190,10 @@ function getFilteredProducts() {
     return matchesCategory && matchesSearch;
   });
 
+  const sortById = (a, b) => a.id - b.id;
+
   if (activeCategory !== "Të gjitha") {
-    return filteredProducts;
+    return [...filteredProducts].sort(sortById);
   }
 
   const categoryOrder = categories
@@ -190,7 +212,7 @@ function getFilteredProducts() {
       return categoryIndexA - categoryIndexB;
     }
 
-    return a.id - b.id;
+    return sortById(a, b);
   });
 }
 
@@ -201,23 +223,25 @@ function renderMenu() {
     .map((product, index) => createMenuCard(product, index))
     .join("");
 
-  emptyState.hidden = filteredProducts.length > 0;
+  if (emptyState) {
+    emptyState.hidden = filteredProducts.length > 0;
+  }
   resultCount.textContent = `${filteredProducts.length} item${
     filteredProducts.length === 1 ? "" : "s"
   } available`;
 }
 
 function scrollToMenuTop() {
-  if (!menuSection) {
+  if (!menuGrid) {
     return;
   }
 
   const toolbar = document.querySelector(".menu-toolbar");
   const toolbarHeight = toolbar ? toolbar.offsetHeight : 0;
-  const sectionTop = menuSection.getBoundingClientRect().top + window.scrollY;
+  const gridTop = menuGrid.getBoundingClientRect().top + window.scrollY;
 
   window.scrollTo({
-    top: Math.max(sectionTop - toolbarHeight - 10, 0),
+    top: Math.max(gridTop - toolbarHeight - 10, 0),
     behavior: "smooth"
   });
 }
