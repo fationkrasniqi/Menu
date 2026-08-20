@@ -29,6 +29,8 @@ const products = [
   { id: 12, name: "Virshlle Shtepie", category: "Grill", price: 3.8, image: "images/12.webp", description: "Virshlle shtepie." },
   { id: 13, name: "Hamburger me Ve", category: "Burgera", price: 3.8, image: "images/13.webp", description: "Hamburger me veze." },
   { id: 14, name: "EM Burger", category: "Burgera", price: 3.5, image: "images/14.webp", description: "Burger i shtepise EM." },
+    { id: 16, name: "File Pule", category: "Grill", price: 4.5, image: "images/w4.webp", description: "File pule." },
+
   { id: 15, name: "Shnicell Pule", category: "Grill", price: 4.5, image: "images/15.webp", description: "Shnicell pule." },
   { id: 47, name: "Sandwich Pule", category: "Sandwicha & Samuna", price: 2.5, image: "images/17.webp", description: "Sandwich pule" },
     { id: 48, name: "Sandwich Tuna", category: "Sandwicha & Samuna", price: 2.5, image: "images/17.webp", description: "Sandwich tuna" },
