@@ -27,7 +27,7 @@ const products = [
   { id: 10, name: "7 Qebapa n'Tave", category: "Grill", price: 4.5, image: "images/10.webp", description: "7 qebapa ne tave." },
   { id: 11, name: "Mengjes i Shtepise EM", category: "Mengjesi", price: 3.5, image: "images/11.webp", description: "Mengjes i shtepise." },
   { id: 12, name: "Virshlle Shtepie", category: "Grill", price: 3.8, image: "images/12.webp", description: "Virshlle shtepie." },
-  { id: 13, name: "Hamburger me Ve", category: "Burgera", price: 3.8, image: "images/13.webp", description: "Hamburger me veze." },
+  { id: 13, name: "Hamburger me Ve", category: "Burgera", price: 3, image: "images/13.webp", description: "Hamburger me veze." },
   { id: 14, name: "EM Burger", category: "Burgera", price: 3.5, image: "images/14.webp", description: "Burger i shtepise EM." },
     { id: 16, name: "File Pule", category: "Grill", price: 4.5, image: "images/w4.webp", description: "File pule." },
 
